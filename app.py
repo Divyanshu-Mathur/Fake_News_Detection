@@ -3,6 +3,7 @@ import pickle
 import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 # Load model and vectorizer
